@@ -1,0 +1,163 @@
+/* Import global styles */
+@import url("/frontend/css/global.css");
+
+
+
+img {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    padding-top: 2rem;
+    margin-top: 40px;
+    gap:10px;
+    border-bottom: 1px var(--border) solid;
+    box-shadow: var(--shadow-sm);
+    height: 500px;
+    /* align-items: center; */
+}
+.content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.header-content p{
+    width: 80%;
+    text-align: left;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.search-bar{
+    position: relative;
+    width: 350px;
+}
+
+.search-bar input{
+    width: 100%;
+}
+
+.search-icon{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    gap: 10px;
+    /* border-bottom: 1px var(--border) solid; */
+    padding: 0 2rem;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.chevron{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.chevron i{
+    background-color: var(--bg-secondary);
+    padding:10px 12px;
+    border-radius: var(--radius-md);
+}
+
+.chevron i:hover{
+    background-color: var(--bg-hover);
+    transition: var(--transition);
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px var(--border) solid;
+    /* padding: 2rem 0; */
+}
+
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+}
+
+.footer-content i{
+    font-size:0.8rem;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.social i{
+    font-size: 22px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsletter-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter-input button{
+    background-color: var(--text-primary);
+    color: var(--bg-primary);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    align-items: right;
+    margin-left: auto;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top: 1px var(--border) solid;
+}
