@@ -19,14 +19,14 @@ Users can:
 
 **Frontend**
 
--HTML
+- HTML
 
--CSS
+- CSS
 
--JavaScript
+- JavaScript
 
 **Database** 
 
--PHP
+- Node.js
 
--MySQL
+- MongoDB
