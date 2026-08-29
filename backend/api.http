@@ -1,0 +1,4 @@
+
+### Trending Movies
+
+GET http://localhost:5000/api/movies/trending
